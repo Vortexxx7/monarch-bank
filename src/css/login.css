@@ -1,0 +1,98 @@
+/* Сброс стилей для body и html */
+html,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+  overflow: hidden; /* убираем скролл */
+}
+
+.background {
+  /* Фон */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/back_welcome.jpeg"); /* путь относительно HTML */
+  background-size: cover; /* помещает всю картинку, не обрезая */
+  background-repeat: no-repeat;
+  background-position: center top; /* можно менять top на любое число, чтобы сдвинуть вниз */
+}
+
+/* Основной контейнер */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+/* Заголовок */
+.welcome {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 0 0 15px whitesmoke; /* лёгкое свечение */
+}
+
+.typing {
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 1px;
+  font-size: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid white;
+  width: 0;
+  animation: typing 3s steps(25, end) forwards, blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 46ch;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.textButton {
+  display: flex;
+  flex-direction: column; /* кнопки идут в столбик */
+  gap: 15px; /* расстояние между ними */
+}
+
+/* Кнопки */
+.textButton button {
+  font-size: 24px; /* размер текста */
+  align-items: center;
+  padding: 10px 35px; /* внутренние отступы */
+  border: none; /* убираем рамку */
+  border-radius: 5px; /* скруглённые углы */
+  background-color: rgba(255, 255, 255, 0.2); /* прозрачный белый фон */
+  color: white; /* цвет текста */
+  cursor: pointer; /* курсор меняется на руку */
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.textButton button:hover {
+  background-color: rgba(255, 255, 255, 0.4); /* фон становится светлее */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 10px white; /* свечение текста */
+}

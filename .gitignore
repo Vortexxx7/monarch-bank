@@ -1,0 +1,6 @@
+backup-*/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+
