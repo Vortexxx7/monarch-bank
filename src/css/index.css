@@ -238,6 +238,8 @@ h2 span {
   padding-top: 12px;
   border-radius: 48% 48% 24px 24px;
   background: linear-gradient(145deg, #ffe7cf, #ffa34f);
+  overflow: hidden;
+  box-shadow: 0 0 25px #ff8b3d30;
 }
 
 body:has(#theme-toggle:checked) .woman {
