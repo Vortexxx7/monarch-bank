@@ -248,6 +248,7 @@ body:has(#theme-toggle:checked) .woman {
   height: 100%;
   width: auto;
   object-fit: contain;
+  filter: drop-shadow(0 0 12px #ff8b3d45);
 }
 
 .status-dot {
