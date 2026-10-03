@@ -4,4 +4,4 @@
 
 Откройте `src/index.html` в браузере.
 
-![Monarch Bank](screenshot.png)
+![Monarch Bank](screenshot.png?v=73d12c8)
