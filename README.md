@@ -10,4 +10,4 @@
 
 ![Просмотр сайта](assets/preview.gif)
 
-
+![](assets/login.gif)
