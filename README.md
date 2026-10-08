@@ -4,4 +4,10 @@
 
 Откройте `src/index.html` в браузере.
 
-![Monarch Bank](screenshot.png?v=73d12c8)
+![Monarch Bank](screenshot.png?v=20261008)
+
+## Просмотр сайта
+
+![Просмотр сайта](assets/preview.gif)
+
+[Видео в MP4](assets/preview.mp4)
