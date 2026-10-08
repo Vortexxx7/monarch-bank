@@ -10,4 +10,4 @@
 
 ![Просмотр сайта](assets/preview.gif)
 
-[Видео в MP4](assets/preview.mp4)
+
